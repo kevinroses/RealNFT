@@ -2,6 +2,8 @@ import { createContext, useState, useEffect, useContext } from "react";
 import { ethers } from "ethers";
 import nftData from "../utils/Nft.json";
 import marketplaceData from "../utils/Marketplace.json";
+import React from 'react';
+
 
 const ItemContext = createContext({});
 
